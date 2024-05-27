@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/imgs/file.png" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acerca">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portafolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#final">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
+        <div class="container">
+            <div class="ms-auto col-12 col-md-7 ">
+                <h1 class="display-1 fw-bold my-5">
+                    Matias<br>Galleguillos
+                </h1>
+                <p class="my-5">
+                    Analista Programador, y Estudiante de Programación Full Stack Javascript
+                </p>
+                <div class="mb-5 pb-5">
+                    <a href="#trabajos" class="btn btn-lg btn-outline-info text-light me-4" role="button">Trabajos</a>
+                    <a href="#final" class="btn btn-lg btn-outline-info text-light me-4" role="button">Contacto</a>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+
+    <section id="Acerca-de-mi" class="container text-center my-5">
+
+
+        <h2 id="acerca" class="display-3 fw-bold my-4">Acerca de mi</h2>
+
+        <p class="my-4">
+            Mi nombre es Matías Galleguillos, tengo 26 años, me interesa la computación, La programación,            
+             y actualmente estudió un curso de programación Full Stack.
+        </p>
+
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <i class="fas fa-camera fa-3x my-3"></i> 
+                <h3 class="my-3 fw-bold">Fanático de las fotografías de Paisajes</h3>
+                <p class="my-3">
+                    Desde pequeño he sido fanático de las fotos de paisajes, tanto de observar fotos,
+                    como de querer capturar fotos por mi mismo.
+                </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <i class="fas fa-headphones fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Fanático de la Musica de Videojuegos</h3>
+                <p class="my-3">
+                 la música de los videojuegos, como también la música en general, han sido gran fuente
+                 inspiración tanto para la vida diaria, como también a la hora de programar.
+
+                </p>
+            </div>
+           
+        </div>
+    </section>
+
+
+    <section id="Mis-trabajos" class="my-5 p-5 bg-info">
+
+        <h2 id="trabajos" class="display-4 fw-bold text-center text-light mb-3">Experiencias Laborales</h2>
+
+        <div class="row">
+            <div class="col-12 col-sm-6 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(./assets/imgs/mantenimiento.png)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Servicio Tecnico de PC</h5>
+                        <p class="card-text">
+                            Servicio Freelance de mantenimiento de Computadoras (Mantenimiento, Formateo, Instalacion de Sistema Operativo)
+                        </p>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(./assets/imgs/retroconsolas.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Ventas independientes de consolas retro, y Articulos de PC </h5>
+                        <p class="card-text">
+                            Ventas Independientes en linea de articulos eléctronicos de entretenimiento (Consolas, PC, entre otros)
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+
+    </section>
+
+
+
+    <section id="Contacto" class="container my-5">
+
+        <h2 id="final" class="display-4 fw-bold text-center my-4">Contáctame</h2>
+
+        
+
+        <form>
+
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Nombre</label>
+                <input class="form-control" placeholder="Nombre">
+            </div>
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Correo electrónico</label>
+                <input class="form-control" placeholder="Correo electrónico" />
+            </div>
+
+
+            <div class="form-group">
+                <label class="mb-2">Mensaje</label>
+                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+
+            <div class="my-3 text-end">
+                <button class="btn btn-info text-light">Enviar</button>
+            </div>
+
+
+
+        </form>
+
+    </section>
+
+
+
+    <footer class="bg-dark text-center text-light p-4">
+        <p class="mb-0">Matias Galleguillos 2024. Todos los derechos reservados.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
